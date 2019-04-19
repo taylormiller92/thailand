@@ -1,0 +1,38 @@
+body {
+    background: url('../images/momaunt.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    background-color: white;
+    font-family: "Acumin Pro", sans-serif;
+}
+
+a {
+    color: black;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+a:hover {
+    color: gray;
+    font-family: acumin-pro, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+h1 {
+    color: #ff9966;
+}
+
+nav h1 {
+    padding-left: 15px;
+}
+
+nav {
+    background-color: #eeeeee;
+    width: 200px;
+    padding: 30px;
+}
+
