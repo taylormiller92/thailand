@@ -1,9 +1,4 @@
 body {
-    background: url('../images/momaunt.jpeg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
     background-color: white;
     font-family: "Acumin Pro", sans-serif;
 }
@@ -26,13 +21,30 @@ h1 {
     color: #ff9966;
 }
 
-nav h1 {
-    padding-left: 15px;
-}
-
 nav {
     background-color: #eeeeee;
-    width: 200px;
-    padding: 30px;
 }
 
+.thailand {
+    color: #ff9966;
+}
+
+/* parallax */
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+
+/*carousel*/
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
